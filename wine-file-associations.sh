@@ -10,7 +10,7 @@ output="REGEDIT4"$'\n'$'\n'
 
 # check
 if [ ! -d "${WINEPRFX}" ]; then
-    echo "Не существует такого WINE префикса ${WINEPRFX}"
+    echo "There is no such WINE prefix ${WINEPRFX}"
     exit
 fi
 # end check
@@ -54,6 +54,3 @@ rm -f "${HOME}/bin/dump.reg"
 # end reg file
 
 exit 0
-
-
-
